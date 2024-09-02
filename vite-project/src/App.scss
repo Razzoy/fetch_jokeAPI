@@ -16,17 +16,20 @@ button{
 }
 
 .light, .dark{
+    transition: 500ms ease-in-out;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
+    padding-top: 10%;
 }
 
 .light {
     color: black;
     background-color: white;
     button{
+        
         background-color: #3f3f3f;
         color: white;
         &:hover{
@@ -47,5 +50,17 @@ button{
         background-color: #cecece;
         color: #333;
     }
+}
+
+h2{
+    margin: 0 2rem;
+}
+
+h2:nth-of-type(2){
+    margin-top: 3rem;
+}
+
+.categoryHeader{
+    font-size: 5rem;
 }
  
